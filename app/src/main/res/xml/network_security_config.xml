@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Add domains that allow cleartext traffic -->
+        <domain includeSubdomains="true">weatherapi.com</domain>
+    </domain-config>
+</network-security-config>
